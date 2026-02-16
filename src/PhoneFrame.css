@@ -13,8 +13,9 @@
 }
 
 .phone-shell {
-  width: min(92vw, calc(94svh * 9 / 19.5));
-  height: min(94svh, calc(92vw * 19.5 / 9));
+  width: min(92vw, 430px);
+  aspect-ratio: 9 / 19.5;
+  height: auto;
   max-width: 430px;
   max-height: 932px;
   border-radius: 34px;
