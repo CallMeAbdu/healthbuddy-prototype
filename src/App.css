@@ -1833,8 +1833,12 @@
   }
 
   .phone-page-inline .phone-shell {
-    width: min(96vw, calc(74svh * 9 / 19.5));
-    height: min(74svh, calc(96vw * 19.5 / 9));
+    width: min(96vw, calc(88svh * 9 / 19.5));
+    height: min(88svh, calc(96vw * 19.5 / 9));
+  }
+
+  .bottom-nav {
+    position: static;
   }
 }
 
@@ -1845,7 +1849,174 @@
   }
 
   .phone-page-inline .phone-shell {
-    width: min(98vw, calc(68svh * 9 / 19.5));
-    height: min(68svh, calc(98vw * 19.5 / 9));
+    width: min(98vw, calc(86svh * 9 / 19.5));
+    height: min(86svh, calc(98vw * 19.5 / 9));
+  }
+
+  .title-group h1 {
+    font-size: 1.3rem;
+  }
+
+  .title-group p {
+    font-size: 0.74rem;
+  }
+
+  .compact-top h1 {
+    font-size: 1.08rem;
+  }
+
+  .back-btn {
+    font-size: 0.82rem;
+    padding: 6px 8px;
+  }
+
+  .action-chip {
+    min-width: 50px;
+    min-height: 48px;
+    border-radius: 12px;
+  }
+
+  .action-chip .chip-icon .app-logo {
+    width: 20px;
+    height: 20px;
+  }
+
+  .chip-label {
+    font-size: 0.58rem;
+  }
+
+  .screen-panel {
+    border-radius: 16px;
+    padding: 9px;
+    gap: 8px;
+  }
+
+  .screen-panel h2 {
+    font-size: 0.92rem;
+  }
+
+  .list-card {
+    border-radius: 12px;
+    padding: 8px 9px;
+    gap: 7px;
+  }
+
+  .list-card strong {
+    font-size: 0.82rem;
+  }
+
+  .list-card p {
+    font-size: 0.72rem;
+  }
+
+  .list-card small {
+    font-size: 0.67rem;
+  }
+
+  .day-chip {
+    min-height: 40px;
+    border-radius: 10px;
+    gap: 3px;
+  }
+
+  .day-number {
+    font-size: 0.86rem;
+  }
+
+  .event-dot {
+    width: 4px;
+    height: 4px;
+  }
+
+  .calendar-day {
+    min-height: 40px;
+    border-radius: 9px;
+    font-size: 0.72rem;
+  }
+
+  .event-panel {
+    border-radius: 12px;
+    padding: 8px;
+  }
+
+  .detail-item {
+    border-radius: 12px;
+    padding: 9px;
+    min-height: 62px;
+  }
+
+  .details-note {
+    border-radius: 10px;
+    padding: 8px;
+  }
+
+  .form-field span {
+    font-size: 0.66rem;
+  }
+
+  .form-field input,
+  .form-field select,
+  .form-field textarea {
+    border-radius: 10px;
+    padding: 8px;
+    font-size: 0.8rem;
+  }
+
+  .primary-pill {
+    min-height: 38px;
+    font-size: 0.84rem;
+  }
+
+  .ghost-btn,
+  .setting-select-btn {
+    min-height: 28px;
+    font-size: 0.68rem;
+  }
+
+  .logout-btn,
+  .delete-btn,
+  .details-action-btn {
+    min-height: 38px;
+    font-size: 0.8rem;
+  }
+
+  .nav-item {
+    min-height: 44px;
+  }
+
+  .nav-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .nav-icon .app-logo {
+    width: 16px;
+    height: 16px;
+  }
+
+  .nav-label {
+    font-size: 0.64rem;
+  }
+
+  .chat-stream {
+    min-height: 140px;
+    padding: 8px;
+  }
+
+  .chat-compose {
+    padding: 5px;
+  }
+
+  .chat-compose input {
+    font-size: 0.78rem;
+    padding: 7px 9px;
+  }
+
+  .welcome-hero h2 {
+    font-size: 1.02rem;
+  }
+
+  .welcome-hero p {
+    font-size: 0.76rem;
   }
 }
