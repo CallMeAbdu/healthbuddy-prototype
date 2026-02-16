@@ -1833,8 +1833,8 @@
   }
 
   .phone-page-inline .phone-shell {
-    width: min(96vw, 430px);
-    height: min(92dvh, calc(96vw * 19.5 / 9));
+    width: min(96vw, calc(74svh * 9 / 19.5));
+    height: min(74svh, calc(96vw * 19.5 / 9));
   }
 }
 
@@ -1845,7 +1845,7 @@
   }
 
   .phone-page-inline .phone-shell {
-    width: min(98vw, 430px);
-    height: min(92dvh, calc(98vw * 19.5 / 9));
+    width: min(98vw, calc(68svh * 9 / 19.5));
+    height: min(68svh, calc(98vw * 19.5 / 9));
   }
 }
